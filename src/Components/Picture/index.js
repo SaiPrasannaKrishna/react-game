@@ -28,7 +28,8 @@ class Picture extends Component{
         return(
             <div>
             <img src={this.props.imageUrl} className="imf"/><br/>
-            <h4><b>{this.props.gear}</b><br/> Current Speed : {this.props.speed} km/hr</h4>
+            <h4><b>{this.props.gear}</b><br/> Current Speed : {this.props.speed} km/hr
+            <br/><span style={{color:'green'}}>You've Travelled : {this.props.distance} Kms</span></h4>
         </div>
         );
         }

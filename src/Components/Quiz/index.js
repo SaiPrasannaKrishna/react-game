@@ -123,6 +123,20 @@ class Quiz extends Component{
                 <Puzzle
                     handleClick={this.handleClick}
                     data={this.state.data} />
+            </div><br/>
+            <div className="PuzzleContainer">
+            <div>
+                <span style={{color:'white',fontWeight:'bold',fontSize:'20px'}}>Rules</span>
+                <br/><br/>  
+              <ul style={{color:'white'}} className="ruleset">
+                  <li>Game starts in first gear where speed is 10 km/hr</li>
+                  <li>Correct answer will switch it to the next gear and if answered within 15 seconds will increase the total distance</li>
+                  <li>Wrong answer will rollback to the previous gear</li>
+                  <li>Game is over if gear is back to 0</li>
+                  <li>Correct answer after 15 seconds would just change the gear but no increase in the distance.</li>
+
+              </ul>         
+            </div>
             </div>
         </div>
         );

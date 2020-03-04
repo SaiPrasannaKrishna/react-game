@@ -13,7 +13,7 @@ class Start extends Component{
             imageUrl:'https://gifimage.net/wp-content/uploads/2017/09/auto-gif-8.gif',
             gear:'Gear 1',
             speed: 10,
-            distance:10,
+            distance:0,
             counter : 1
         };
         this.updatedDistance = 0;

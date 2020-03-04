@@ -43,6 +43,11 @@
 .Results__Incorrect {
     display: flex
 }
+.ruleset li{
+    font-size: 20px;
+    font-weight: bold;
+
+}
 
 .Results__Count {
     width: 25px;
